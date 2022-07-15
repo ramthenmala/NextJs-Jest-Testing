@@ -7,12 +7,12 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    branches: ${{matrix.os}}
+    branches: "*"
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{matrix.os}}
 
     strategy:
       matrix:
