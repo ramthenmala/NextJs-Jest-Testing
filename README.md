@@ -22,11 +22,15 @@ npx ts-jest config:init
 ```
 
 ### YARN
-˜˜˜
+```
 yarn ts-jest config:init
-˜˜˜
+```
 
 ### Install depending packages
 ```
 npm install --save-dev @testing-library/react @testing-library/user-event @testing-library/dom @testing-library/jest-dom
+```
+### Npx eslint Config
+```
+npx eslint --init
 ```
