@@ -7,7 +7,6 @@ npx create-next-app app-name --ts
 npm install --save-dev jest typescript ts-jest @types/jest
 ```
 ## Jest Configuration with TS Support
-
 [Jest TS](https://kulshekhar.github.io/ts-jest/docs/getting-started/installation)
 
 ### NPM
